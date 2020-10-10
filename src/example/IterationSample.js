@@ -21,7 +21,6 @@ const IterationSample = () => {
         setInputText('');
     }
 
-
     const nameList = names.map(name=> <li key={name.id}>{name.text}</li>)
     return (
         <>

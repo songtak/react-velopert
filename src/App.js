@@ -1,14 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import EventPractice from './example/EventPractice';
-import IterationSample from './example/IterationSample'
+import React, {useState} from 'react';
+
+//import EventPractice from './example/EventPractice';
+//import IterationSample from './example/IterationSample'
+//import Counter from "./example/Counter";
+import Info from "./example/Info";
+
 
 const App = () => {
   return (
-      <IterationSample/>
-
+    <>
+        <Info/>
+    </>
   );
-}
+};
 
 export default App;
