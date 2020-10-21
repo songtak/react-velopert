@@ -4,13 +4,14 @@ import React, {useState} from 'react';
 //import IterationSample from './example/IterationSample'
 //import Counter from "./example/Counter";
 //import Info from "./example/Info";
-import Average from "./example/Average";
-
+//import Average from "./example/Average";
+import TodoTemplate from './todo/TodoTemplate'
+import TodoInsert from './todo/TodoInsert'
 
 const App = () => {
   return (
     <>
-        <Average/>
+        <TodoTemplate> <TodoInsert/></TodoTemplate>
     </>
   );
 };
